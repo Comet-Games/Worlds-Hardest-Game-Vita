@@ -9,6 +9,10 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/Code/WorldsHardestGame/Library/metadata/
+/Code/WorldsHardestGame/Temp/
+/Code/WorldsHardestGame/Library/
+/Code/WorldsHardestGame/Obj/
  
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -42,6 +46,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.info
  
 # Unity3D generated meta files
 *.pidb.meta
@@ -54,6 +59,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.bin
+*.asset
  
 # Crashlytics generated file
 crashlytics-build.properties
