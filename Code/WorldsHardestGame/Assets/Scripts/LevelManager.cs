@@ -9,6 +9,7 @@ public class LevelManager : MonoBehaviour {
 	public int levelAmount;
 	public Player player;
 	public GameObject[] coins;
+	public Camera camera;
 
 	void Start()
 	{
@@ -32,18 +33,22 @@ public class LevelManager : MonoBehaviour {
 	{
 		if(levelNum == 1)
 		{
+			camera.orthographicSize = 5.0f;
 			player.coinsNeeded = 0;
 		}
 		if(levelNum == 2)
 		{
+			camera.orthographicSize = 5.0f;
 			player.coinsNeeded = 1;
 		}
 		if(levelNum == 3)
 		{
+			camera.orthographicSize = 5.0f;
 			player.coinsNeeded = 1;
 		}
 		if(levelNum == 4)
 		{
+			camera.orthographicSize = 6.0f;
 			player.coinsNeeded = 3;
 		}
 	}

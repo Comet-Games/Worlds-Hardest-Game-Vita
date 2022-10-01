@@ -2170,6 +2170,7 @@ MonoBehaviour:
   - {fileID: 647996488}
   - {fileID: 212754109}
   - {fileID: 792187588}
+  camera: {fileID: 913886802}
 --- !u!1 &154666532
 GameObject:
   m_ObjectHideFlags: 0
