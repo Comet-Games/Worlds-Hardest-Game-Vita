@@ -67,5 +67,10 @@ public class LevelManager : MonoBehaviour {
             camera.orthographicSize = 6.0f;
             player.coinsNeeded = 4;
         }
+        if (levelNum == 7)
+        {
+            camera.orthographicSize = 5.0f;
+            player.coinsNeeded = 3;
+        }
     }
 }

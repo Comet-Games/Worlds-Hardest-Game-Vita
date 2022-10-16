@@ -510,8 +510,8 @@ PlayerSettings:
   psp2NPCommsSig: 
   psp2ParamSfxPath: 
   psp2ManualPath: 
-  psp2LiveAreaGatePath: Assets/Images/Gate.png
-  psp2LiveAreaBackroundPath: Assets/Images/Checkers.png
+  psp2LiveAreaGatePath: Assets/WHG_Assets/default_gate.png
+  psp2LiveAreaBackroundPath: Assets/WHG_Assets/bg0.png
   psp2LiveAreaPath: 
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
@@ -534,8 +534,8 @@ PlayerSettings:
   psp2ShortTitle: WHG Vita
   psp2ContentID: IV0000-WHGR00000_00-0123456789ABCDEF
   psp2Category: 0
-  psp2MasterVersion: 01.00
-  psp2AppVersion: 01.00
+  psp2MasterVersion: 01.05
+  psp2AppVersion: 01.05
   psp2TVBootMode: 0
   psp2EnterButtonAssignment: 2
   psp2TVDisableEmu: 0
