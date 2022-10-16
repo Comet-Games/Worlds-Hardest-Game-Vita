@@ -80,16 +80,16 @@ public class Player : MonoBehaviour
 
 	private void Controls()
 	{
-		if (Input.GetButton ("Dup")) { // if D-Pad Up is pressed
+		if (Input.GetButton ("Dup") || Input.GetAxis("Left Stick Vertical") >= 0.1) { // if D-Pad Up is pressed
 			transform.position += Vector3.up * moveSpeed * Time.deltaTime;
 		}
-		if (Input.GetButton ("Ddown")) { // if D-Pad Down is pressed
+		if (Input.GetButton ("Ddown") || Input.GetAxis("Left Stick Vertical") <= -0.1) { // if D-Pad Down is pressed
 			transform.position += Vector3.down * moveSpeed * Time.deltaTime;
 		}
-		if (Input.GetButton ("Dleft")) { // if D-Pad Left is pressed
+		if (Input.GetButton ("Dleft") || Input.GetAxis("Left Stick Horizontal") <= -0.1) { // if D-Pad Left is pressed
 			transform.position += Vector3.left * moveSpeed * Time.deltaTime;
 		}
-		if (Input.GetButton ("Dright")) { // if D-Pad Right is pressed
+		if (Input.GetButton ("Dright") || Input.GetAxis("Left Stick Horizontal") >= 0.1) { // if D-Pad Right is pressed
 			transform.position += Vector3.right * moveSpeed * Time.deltaTime;
 		}
 	}

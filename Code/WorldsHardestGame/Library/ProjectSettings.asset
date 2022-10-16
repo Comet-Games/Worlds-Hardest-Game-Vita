@@ -11,7 +11,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Comet Games
   productName: Worlds Hardest Game Vita
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -532,10 +532,10 @@ PlayerSettings:
   psp2SaveDataQuota: 10240
   psp2ParentalLevel: 1
   psp2ShortTitle: WHG Vita
-  psp2ContentID: IV0000-ABCD12345_00-0123456789ABCDEF
+  psp2ContentID: IV0000-WHGR00000_00-0123456789ABCDEF
   psp2Category: 0
-  psp2MasterVersion: 01.18
-  psp2AppVersion: 01.18
+  psp2MasterVersion: 01.00
+  psp2AppVersion: 01.00
   psp2TVBootMode: 0
   psp2EnterButtonAssignment: 2
   psp2TVDisableEmu: 0

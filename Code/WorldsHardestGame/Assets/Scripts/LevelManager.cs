@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour {
 	public Player player;
 	public GameObject[] coins;
 	public Camera camera;
+	public GameObject EndScreen;
 
 	void Start()
 	{
@@ -20,6 +21,11 @@ public class LevelManager : MonoBehaviour {
 		UpdateCoins();
 		levelNum = player.levelNum + 1;
 		levelText.text = ("" + levelNum + "/" + levelAmount);
+
+		if(levelNum > levelAmount)
+		{
+			EndScreen.SetActive(true);
+		}
 	}
 	public void ActivateCoins()
 	{
@@ -38,18 +44,28 @@ public class LevelManager : MonoBehaviour {
 		}
 		if(levelNum == 2)
 		{
-			camera.orthographicSize = 5.0f;
+            camera.orthographicSize = 5.0f;
 			player.coinsNeeded = 1;
 		}
 		if(levelNum == 3)
-		{
-			camera.orthographicSize = 5.0f;
+        {
+            camera.orthographicSize = 5.0f;
 			player.coinsNeeded = 1;
 		}
 		if(levelNum == 4)
 		{
-			camera.orthographicSize = 6.0f;
+            camera.orthographicSize = 6.0f;
 			player.coinsNeeded = 3;
 		}
-	}
+        if (levelNum == 5)
+        {
+            camera.orthographicSize = 6.0f;
+            player.coinsNeeded = 0;
+        }
+        if (levelNum == 6)
+        {
+            camera.orthographicSize = 6.0f;
+            player.coinsNeeded = 4;
+        }
+    }
 }
