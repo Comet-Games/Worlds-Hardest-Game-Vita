@@ -2,7 +2,7 @@
 A re-creation of the popular flash game Worlds Hardest Game by SNUBBY LAND and Armour Games.
 Currently a demo and has limited levels... will be updated regulary.
 
-Currently when you finish level 7 you get presented with a end screen this allows you to restart the game without having to exit the application!
+Currently when you finish level 9 you get presented with a end screen this allows you to restart the game without having to exit the application!
 
 Inside the Version Folder you will find the different versions of the game and inside those folders is a .vpk file. 
 You should have custom firmware running on your vita if you would like to play the game and you will also need to install vitaShell to install the .vpk file.
@@ -13,7 +13,14 @@ You should have custom firmware running on your vita if you would like to play t
 - HD Background music and sound effects! (original music by snayk)
 - Enemies!
 - Coins!
-- Currently has 7 fully functional levels! (more coming soon!)
+- Currently has 9 levels! (more coming soon!)
+
+# Features Coming Soon
+- Checkpoints!
+- More Levels
+- Main Menu
+- Change Colour of your Player!
+
 
 # Images
 <img src="/Images/LiveArea.jpg" alt="Live Area" width = 500>
