@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
 	public AudioSource audioSource;
 	public AudioClip deathSound;
 	public AudioClip coinSound;
+	public AudioClip endSound;
 
 	public LevelManager levelManager;
 	public Transform level2Spawn;
@@ -68,8 +69,8 @@ public class Player : MonoBehaviour
 
 		if(other.gameObject.tag == "End" && currentCoins == coinsNeeded)
 		{
-			//Spawn.position = level2Spawn.position;
-			levelNum++;
+            audioSource.PlayOneShot(endSound);
+            levelNum++;
 			currentCoins = 0;
 			DeactivateLevels();
 			Spawn.position = levelSpawns[levelNum].position;
