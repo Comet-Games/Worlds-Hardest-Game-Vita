@@ -13,7 +13,7 @@ You should have custom firmware running on your vita if you would like to play t
 - HD Background music and sound effects! (original music by snayk)
 - Enemies!
 - Coins!
-- Currently has 9 levels! (more coming soon!)
+- Currently has 9/30 levels! (more coming soon!)
 
 # Features Coming Soon
 - Checkpoints!
