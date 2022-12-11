@@ -59,50 +59,44 @@ public class LevelManager : MonoBehaviour {
 
 	void UpdateCoins()
 	{
-		if(levelNum == 1)
+		switch(levelNum)
 		{
-			camera.orthographicSize = 5.0f;
-			player.coinsNeeded = 0;
-		}
-		if(levelNum == 2)
-		{
-            camera.orthographicSize = 5.0f;
-			player.coinsNeeded = 1;
-		}
-		if(levelNum == 3)
-        {
-            camera.orthographicSize = 5.0f;
-			player.coinsNeeded = 1;
-		}
-		if(levelNum == 4)
-		{
-            camera.orthographicSize = 6.0f;
-			player.coinsNeeded = 3;
-		}
-        if (levelNum == 5)
-        {
-            camera.orthographicSize = 6.0f;
-            player.coinsNeeded = 0;
-        }
-        if (levelNum == 6)
-        {
-            camera.orthographicSize = 6.0f;
-            player.coinsNeeded = 4;
-        }
-        if (levelNum == 7)
-        {
-            camera.orthographicSize = 5.0f;
-            player.coinsNeeded = 4;
-        }
-        if (levelNum == 8)
-        {
-            camera.orthographicSize = 5.0f;
-            player.coinsNeeded = 3;
-        }
-        if (levelNum == 9)
-        {
-            camera.orthographicSize = 5.0f;
-            player.coinsNeeded = 1;
+			case 1:
+                camera.orthographicSize = 5.0f;
+                player.coinsNeeded = 0;
+				break;
+            case 2:
+                camera.orthographicSize = 5.0f;
+                player.coinsNeeded = 1;
+                break;
+			case 3:
+                camera.orthographicSize = 5.0f;
+                player.coinsNeeded = 1;
+				break;
+			case 4:
+                camera.orthographicSize = 6.0f;
+                player.coinsNeeded = 3;
+				break;
+			case 5:
+                camera.orthographicSize = 6.0f;
+                player.coinsNeeded = 0;
+				break;
+			case 6:
+                camera.orthographicSize = 6.0f;
+                player.coinsNeeded = 4;
+                break;
+			case 7:
+                camera.orthographicSize = 5.0f;
+                player.coinsNeeded = 4;
+                break;
+			case 8:
+                camera.orthographicSize = 5.0f;
+                player.coinsNeeded = 3;
+                break;
+			case 9:
+                camera.orthographicSize = 5.0f;
+                player.coinsNeeded = 1;
+                break;
         }
     }
 }

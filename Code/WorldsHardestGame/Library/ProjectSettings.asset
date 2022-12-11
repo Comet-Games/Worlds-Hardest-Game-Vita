@@ -525,8 +525,8 @@ PlayerSettings:
   psp2ShortTitle: WHG Vita
   psp2ContentID: IV0000-WHGR00000_00-0123456789ABCDEF
   psp2Category: 0
-  psp2MasterVersion: 01.15
-  psp2AppVersion: 01.15
+  psp2MasterVersion: 01.14
+  psp2AppVersion: 01.14
   psp2TVBootMode: 0
   psp2EnterButtonAssignment: 2
   psp2TVDisableEmu: 0
